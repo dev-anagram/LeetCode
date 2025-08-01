@@ -7,7 +7,7 @@ public class Solution {
         while (current != 0){
             int modX = current % 10;
             reversed = reversed * 10 + modX;
-            current = current / 10;
+            current /= 10;
         }
         return reversed == x;
 
